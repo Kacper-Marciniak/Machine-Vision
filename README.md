@@ -1,7 +1,7 @@
 # OpenCV - C++
 Image processing using OpenCV.
 
-## "Project Clock"
+## Reading time from analogue clock
 The goal of the project was to create a programme that would be able to tell the time based on a picture of a analogue clock.
 
 ### Programme framework plan:
@@ -17,6 +17,7 @@ The goal of the project was to create a programme that would be able to tell the
     - dilatation
     - erosion
     - bit inversion
+    - end effect - monochromatic image of clock face
 6. Analysis
     - detecting contours
     - removing small or non-rectangular contours
