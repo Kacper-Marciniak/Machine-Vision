@@ -5,9 +5,9 @@ The goal of the project was to create and deploy convolutional neural network th
 
 ### Neural network:
 - network structure: leNet-5
-- learning_rate: 0.0001
+- learning_rate: 1e-5
 - batch_size: 10
-- n_epochs: 50
+- n_epochs: 25
 - loss function: CrossEntropyLoss()
 - training dataset: 60000 images from NMIST dataset
 - validation dataset: 10000 images from NMIST dataset
