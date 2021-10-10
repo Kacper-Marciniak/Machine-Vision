@@ -12,7 +12,7 @@ The goal of the project was to create and deploy convolutional neural network th
 - training dataset: 60000 images from NMIST dataset
 - validation dataset: 10000 images from NMIST dataset
 
-TODO: upoad plot here
+![Analysis 1](CNN-NMIST/TrainingValidationPlot.png)
 
 ### Programme framework plan:
 1. Loading frame from webcam
