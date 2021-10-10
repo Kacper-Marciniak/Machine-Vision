@@ -6,8 +6,8 @@ The goal of the project was to create and deploy convolutional neural network th
 ### Neural network:
 - network structure: leNet-5
 - learning_rate: 1e-4
-- batch_size: 10
-- n_epochs: 25
+- batch_size: 50
+- n_epochs: 30
 - loss function: CrossEntropyLoss()
 - optimizer: Adam algorithm
 - training dataset: 60000 images from NMIST dataset
@@ -16,9 +16,9 @@ The goal of the project was to create and deploy convolutional neural network th
 
 ![Loss and accuracy plot](CNN_NMIST/TrainingValidationPlot.png)
 
-Training accuracy: *0.9896*
+Training accuracy: *0.9814*
 
-Validation accuracy: *0.9869*
+Validation accuracy: *0.9812*
 
 ### Programme framework plan:
 1. Loading frame from webcam
