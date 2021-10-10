@@ -7,10 +7,11 @@ The goal of the project was to create and deploy convolutional neural network th
 - network structure: leNet-5
 - learning_rate: 1e-5
 - batch_size: 10
-- n_epochs: 25
+- n_epochs: 100
 - loss function: CrossEntropyLoss()
 - training dataset: 60000 images from NMIST dataset
 - validation dataset: 10000 images from NMIST dataset
+- trained using Google Collab
 
 ![Loss and accuracy plot](CNN_NMIST/TrainingValidationPlot.png)
 
@@ -31,7 +32,7 @@ The goal of the project was to create and deploy convolutional neural network th
 
 ### Effects of the program:
 
-TODO: upoad clip here
+TODO: upload clip here
 
 ## Reading time on analogue clock [OpenCV C++]
 The goal of the project was to create a programme that would be able to tell the time based on a picture of a analogue clock.
