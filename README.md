@@ -9,6 +9,8 @@ The goal of the project was to create and deploy convolutional neural network th
 - batch_size: 10
 - n_epochs: 50
 - loss function: CrossEntropyLoss()
+- training dataset: 60000 images from NMIST dataset
+- validation dataset: 10000 images from NMIST dataset
 
 TODO: upoad plot here
 
