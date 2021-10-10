@@ -33,7 +33,7 @@ The goal of the project was to create and deploy convolutional neural network th
 
 ### Effects of the program:
 
-![Loss and accuracy plot](CNN_NMIST/NumberDetection.mp4)
+![Number detection](CNN_NMIST/NumberDetection.mp4)
 
 ## Reading time on analogue clock [OpenCV C++]
 The goal of the project was to create a programme that would be able to tell the time based on a picture of a analogue clock.
