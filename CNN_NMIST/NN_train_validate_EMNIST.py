@@ -49,9 +49,9 @@ test_set = torchvision.datasets.MNIST(
 )
 
 # Define initial parameters
-learning_rate = 0.0005
+learning_rate = 0.0001
 batch_size = 10
-n_epochs = 50
+n_epochs = 25
 criterion = nn.CrossEntropyLoss()
 
 # Create network
