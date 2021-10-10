@@ -15,6 +15,8 @@ The goal of the project was to create and deploy convolutional neural network th
 - trained using Google Collab
 
 ![Loss and accuracy plot](CNN_NMIST/TrainingValidationPlot.png)
+Training accuracy: 0.9896
+Validation accuracy: 0.9869
 
 ### Programme framework plan:
 1. Loading frame from webcam
