@@ -1,7 +1,37 @@
-# OpenCV - C++
-Image processing using OpenCV.
+# Machine Vision
 
-## Reading time from analogue clock
+## Number recognition [OpenCV,Torch Python]
+The goal of the project was to create and deploy convolutional neural network that would be able to identify hand-written numbers. It was achieved using PyTorch (Machine learning elements) and OpenCV (Image processing).
+
+### Neural network:
+- network structure: leNet-5
+- learning_rate: 0.0001
+- batch_size: 10
+- n_epochs: 50
+- loss function: CrossEntropyLoss()
+
+TODO: upoad plot here
+
+### Programme framework plan:
+1. Loading frame from webcam
+2. Pre-processing
+    - cropping frame
+    - tresholding (Otsu method) and inverting
+    - detecting biggest contour in frame
+    - creating bounding box around said contour and then cropping it
+    - resizing image to 28x28
+    - changing format to 8-bit
+4. Preparing data
+    - converting to PIL image
+    - transforming to PyTorch tensor
+    - loading with data loader utility
+6. Sending data to neural network
+
+### Effects of the program:
+
+TODO: upoad clip here
+
+## Reading time on analogue clock [OpenCV C++]
 The goal of the project was to create a programme that would be able to tell the time based on a picture of a analogue clock.
 
 ### Programme framework plan:
