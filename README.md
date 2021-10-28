@@ -37,7 +37,7 @@ Validation accuracy: *0.9835*
 
 ### Program in action:
 
-*TO DO - add clip*
+*TO DO - add a clip*
 
 ## Reading time on analogue clock [OpenCV C++]
 The goal of the project was to create a programme that would be able to tell the time based on a picture of a analogue clock.
