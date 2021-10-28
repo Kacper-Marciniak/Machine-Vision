@@ -14,7 +14,7 @@ The goal of the project was to create and deploy convolutional neural network th
 - validation dataset: 10000 edited images from NMIST dataset
 - trained using Google Collab
 
-![Loss and accuracy plot](CNN_NMIST/TrainingValidationPlot.png)
+![Loss and accuracy plot](CNN-NMIST/TrainingValidationPlot.png)
 
 Training accuracy: *0.9927*
 
