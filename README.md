@@ -7,18 +7,18 @@ The goal of the project was to create and deploy convolutional neural network th
 - network structure: leNet-5
 - learning_rate: 1e-4
 - batch_size: 50
-- n_epochs: 30
+- n_epochs: 100
 - loss function: CrossEntropyLoss()
 - optimizer: Adam algorithm
-- training dataset: 60000 images from NMIST dataset
-- validation dataset: 10000 images from NMIST dataset
+- training dataset: 60000 edited images from NMIST dataset
+- validation dataset: 10000 edited images from NMIST dataset
 - trained using Google Collab
 
 ![Loss and accuracy plot](CNN_NMIST/TrainingValidationPlot.png)
 
-Training accuracy: *0.9814*
+Training accuracy: *0.9927*
 
-Validation accuracy: *0.9812*
+Validation accuracy: *0.9835*
 
 ### Programme framework plan:
 1. Loading frame from webcam
@@ -35,9 +35,9 @@ Validation accuracy: *0.9812*
     - loading with data loader utility
 6. Sending data to neural network
 
-### Effects of the program:
+### Program in action:
 
-![Number detection](CNN_NMIST/NumberDetection.mp4)
+*TO DO - add clip*
 
 ## Reading time on analogue clock [OpenCV C++]
 The goal of the project was to create a programme that would be able to tell the time based on a picture of a analogue clock.
